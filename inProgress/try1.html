@@ -1,0 +1,213 @@
+<!doctype html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style1.css">
+  <link rel="stylesheet" href="css/example.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width">
+
+  <style>
+    body {
+      -webkit-font-smoothing: antialiased;
+      font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #232525;
+      padding-top:70px;
+    }
+
+    #slides {
+      display: none
+    }
+
+    #slides .slidesjs-navigation {
+      margin-top:3px;
+    }
+
+    #slides .slidesjs-previous {
+      margin-right: 5px;
+      float: left;
+    }
+
+    #slides .slidesjs-next {
+      margin-right: 5px;
+      float: left;
+    }
+
+    .slidesjs-pagination {
+      margin: 6px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(/img/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+  </style>
+
+  <style>
+    #slides {
+      display: none
+    }
+
+    .container {
+      margin: 0 auto
+    }
+
+    /* For tablets & smart phones */
+    @media (max-width: 767px) {
+      body {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smartphones */
+    @media (max-width: 480px) {
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smaller displays like laptops */
+    @media (min-width: 768px) and (max-width: 979px) {
+      .container {
+        width: 724px
+      }
+    }
+
+    /* For larger displays */
+    @media (min-width: 100%) and (min-height: 100%) {
+      .container {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  </style>
+
+
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="jquery.slides.min.js"></script>
+
+
+
+</head>
+
+<body>
+  <div class="container">
+    <div id="slides">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20140120_0546.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20140120_0634.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20150415_9999.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20150415_0235.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20150415_0407.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20140217_1089.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20150411_9068.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20150411_9218.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20150411_9707.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20140120_0535.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20140125_0745.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20131130_668520131130.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20131130_668520131130.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20140120_0541.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20151005_1790.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20150427_0587.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20140210_2.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20151102_2147.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20150306_8008.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20150301_5608.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20150304_7793.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20150413_1010.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20150303_6790.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20150303_6663.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20150303_6736.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20150303_6660.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20150302_.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20150228_4708.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20150302_6022.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20150228_4874.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20150228_.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20150301_.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20150304_7395.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20150303_.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20150403_8565.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20150413_20150412.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20150413_20150412-2.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20150413_20150412-3.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20150413_2.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20140830_2541.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20141129_3977.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20150322_8265.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20141003_2833.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20140924_2738.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20141123_.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20140720_2.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20140726_2.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20140903_.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20150923_.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20140120_0476.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20110422_.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20130617_2.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20140320_1.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20140424_2.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20140424_4.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20151202_2.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20120120_3.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20151202_3.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20151118_1.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20151202_2-2.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20151202_3-2.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20121123_3.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20151118_1-2.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20140410_3.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20151012_1867.JPG">
+      <img src="https://dl.dropboxusercontent.com/u/39014322/photoPortoflio/Kerkstra_20151025_3.JPG">
+      <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+      <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+    </div>
+  </div>
+  <script>
+    $(function(){
+      $("#slides").slidesjs({
+        width: 553,
+        height: 349
+
+      });
+    });
+  </script>
+</body>
