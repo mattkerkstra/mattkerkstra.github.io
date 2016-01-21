@@ -13,7 +13,7 @@
 
   	<h2>
   	Concept
-  	<iframe src="webplayer/webplayer.html?load=proposedInstallation.json&show_fps"></iframe>
+  	<iframe src="/webplayer/webplayer.html?load=/proposedInstallation.json&show_fps"></iframe>
   	</h2>
 
   	</body>
