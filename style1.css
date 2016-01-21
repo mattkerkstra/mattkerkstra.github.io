@@ -26,7 +26,6 @@ p {
 
 a {
 	text-decoration: none;
-	font-size: 2.7em;
 	color:white;
 	text-align: center;
 }
@@ -49,4 +48,8 @@ a:hover {
 a:active {
 	text-align: center;
 	color:gray;
+}
+
+iframe {
+	color:white;
 }
