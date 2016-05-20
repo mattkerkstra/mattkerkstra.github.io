@@ -10,8 +10,8 @@
   <style>
     body {
       -webkit-font-smoothing: antialiased;
-      font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-      color: #232525;
+      font: normal 30px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #ffffff;
       padding-top:70px;
     }
 
@@ -24,13 +24,14 @@
     }
 
     #slides .slidesjs-previous {
-      margin-right: 5px;
-      float: left;
+      margin-right: 25px;
+      float: center;
     }
 
     #slides .slidesjs-next {
-      margin-right: 5px;
-      float: left;
+      margin-right: 25px;
+      color: #ffffff;
+      float: center;
     }
 
     .slidesjs-pagination {
@@ -66,12 +67,12 @@
 
     #slides a:link,
     #slides a:visited {
-      color: #333
+      color:  #ffffff
     }
 
     #slides a:hover,
     #slides a:active {
-      color: #9e2020
+      color: #990000
     }
 
     .navbar {
@@ -126,7 +127,15 @@
   <script src="http://code.jquery.com/jquery-latest.min.js"></script>
   <script src="jquery.slides.min.js"></script>
 
+   <script>
+    $(function(){
+      $("#slides").slidesjs({
+        width: 1024,
+        height: 768,
 
+      });
+    });
+  </script>
 
 </head>
 
@@ -209,13 +218,4 @@
       </div>
     </div>
   </div>
-  <script>
-    $(function(){
-      $("#slides").slidesjs({
-        width: 800,
-        height: 600,
-
-      });
-    });
-  </script>
 </body>
