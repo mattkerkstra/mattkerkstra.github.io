@@ -33,6 +33,12 @@ a {
 a:link {
 	text-align: center;
 	color: white;
+
+}
+
+img {
+	margin-left: auto;
+	margin-right: auto;
 }
 
 a:visited {
